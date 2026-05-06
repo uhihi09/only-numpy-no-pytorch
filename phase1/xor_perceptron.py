@@ -9,7 +9,7 @@ print("XOR 게이트 학습")
 print("=" * 50)
 
 p_xor = Perceptron(n_features=2, lr=0.1)
-history_xor = p_xor.fit(X_xor, y_xor, epochs=100)
+history_xor = p_xor.fit(X_xor, y_xor, epochs=20)
 
 print("\n결과:")
 for x, y_true in zip(X_xor, y_xor):
